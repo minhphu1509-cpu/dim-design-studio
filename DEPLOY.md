@@ -47,7 +47,7 @@ git add .
 git commit -m "feat: Dim Design Studio initial commit"
 
 # Tạo repo mới trên github.com/new
-git remote add origin https://github.com/YOUR_USERNAME/dim-design.git
+git remote add origin https://github.com/YOUR_USERNAME/dim-design-studio.git
 git branch -M main
 git push -u origin main
 ```
