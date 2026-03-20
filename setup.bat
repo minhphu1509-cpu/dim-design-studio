@@ -160,7 +160,7 @@ vercel --prod --yes --name dim-design-studio ^
 :: ── Seed database ─────────────────────────────────────────────
 echo.
 echo Tao du lieu mau...
-npx prisma db push
+npx prisma db push --schema=./prisma/schema.prisma
 npm run db:seed
 
 :: ── HOÀN TẤT ─────────────────────────────────────────────────

@@ -181,7 +181,7 @@ vercel --prod \
 # ── Seed database ──────────────────────────────────────────────
 echo ""
 echo -e "${BOLD}Tạo dữ liệu mẫu...${NC}"
-npx prisma db push
+npx prisma db push --schema=./prisma/schema.prisma
 npm run db:seed
 
 # ── HOÀN TẤT ──────────────────────────────────────────────────
